@@ -1,0 +1,145 @@
+body {
+  background-color: #222831;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  color: #393E46;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  color: #00ADB5;
+
+}
+
+h2 {
+  font-family: 'Lobster', cursive;
+  color: #00ADB5;
+
+}
+
+
+h3 {
+  font-family: 'Lobster', cursive;
+  color: #00ADB5;
+
+}
+
+.btn {
+  background: #00ffa2;
+  background-image: -webkit-linear-gradient(top, #00ffa2, #2980b9);
+  background-image: -moz-linear-gradient(top, #00ffa2, #2980b9);
+  background-image: -ms-linear-gradient(top, #00ffa2, #2980b9);
+  background-image: -o-linear-gradient(top, #00ffa2, #2980b9);
+  background-image: linear-gradient(to bottom, #00ffa2, #2980b9);
+  -webkit-border-radius: 50;
+  -moz-border-radius: 50;
+  border-radius: 50px;
+  text-shadow: 1px 1px 3px #323232;
+  -webkit-box-shadow: 1px 3px 3px #666666;
+  -moz-box-shadow: 1px 3px 3px #666666;
+  box-shadow: 1px 3px 3px #666666;
+  font-family:'Edu VIC WA NT Beginner', cursive;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 10px 10px 20px;
+  border: solid #2d729c 1px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #2980b9;
+  background-image: -webkit-linear-gradient(top, #2980b9, #00ffa2);
+  background-image: -moz-linear-gradient(top, #2980b9, #00ffa2);
+  background-image: -ms-linear-gradient(top, #2980b9, #00ffa2);
+  background-image: -o-linear-gradient(top, #2980b9, #00ffa2);
+  background-image: linear-gradient(to bottom, #2980b9, #00ffa2);
+  text-decoration: none;
+  transition: 1s linear;
+}
+
+.social {
+  color:  #00ADB5;
+  font-size: 35px;
+  transition: .5s;
+}
+
+.social:hover {
+  color: #00ffa2;
+}
+
+.star:hover {
+  color: #00ffa2;
+  opacity: 0.1;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.img-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: contain;
+
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+  background: #EEEEEE;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  margin: 50px auto;
+  border-radius: 8px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 15px;
+}
+
+
+.resize-50px {
+  width: 200px;
+  height: 100px;
+
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
